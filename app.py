@@ -16,7 +16,7 @@ from mimetypes import guess_type
 
 app = Flask(__name__)
 app.config.from_object(Config)
-CORS(app)
+CORS(app, origins=["https://your-vercel-url.com"])
 
 db.init_app(app)
 
