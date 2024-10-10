@@ -16,7 +16,8 @@ from mimetypes import guess_type
 
 app = Flask(__name__)
 app.config.from_object(Config)
-CORS(app, origins=["https://image-management-app-frontend.vercel.app"])
+# CORS(app, origins=["https://image-management-app-frontend.vercel.app"])
+CORS(app)
 
 db.init_app(app)
 
