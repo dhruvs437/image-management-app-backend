@@ -1,9 +1,10 @@
-Flask==2.3.3
+Flask==2.3.4
 Flask-Cors==3.0.10
-Flask-SQLAlchemy==3.0.5
+Flask-SQLAlchemy==3.0.6
 PyJWT==2.7.0
-boto3==1.28.0
+boto3==1.28.10
 python-dotenv==1.0.0
-Werkzeug==2.3.7
-SQLAlchemy==2.0.20
+Werkzeug==2.3.8
+SQLAlchemy==2.0.21
 gunicorn==20.1.0
+psycopg2-binary==2.9.6
