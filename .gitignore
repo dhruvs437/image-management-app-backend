@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folder
+venv/
+ENV/
+env/
+
+# Environment variables file
+.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Packages
+*.egg
+*.whl
+*.deb
+*.tar.gz
+*.zip
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+Desktop.ini
+
+# Vercel/Heroku files if not needed
+.vercel/
+.now/
+.heroku/
